@@ -8,6 +8,9 @@ const prompt=require('prompt-sync')();
 
 app.use(express.static(__dirname + '/public'));
 
+
+
+
 const dbService = require('./dbService');
 
 app.get('/get',function(res,res){

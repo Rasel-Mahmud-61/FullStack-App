@@ -77,6 +77,41 @@ async deleteRowById(id) {
         return false;
     }
 }
+async updateNameById(id, name) {
+    try {
+        id = parseInt(id, 10); 
+        const response = await new Promise((resolve, reject) => {
+            const query = "UPDATE names SET name = ? WHERE id = ?";
+
+            connection.query(query, [name, id] , (err, result) => {
+                if (err) reject(new Error(err.message));
+                resolve(result.affectedRows);
+            })
+        });
+
+        return response === 1 ? true : false;
+    } catch (error) {
+        console.log(error);
+        return false;
+    }
+}
+async searchByName(name) {
+    try {
+        const response = await new Promise((resolve, reject) => {
+            const query = "SELECT * FROM names WHERE name = ?;";
+
+            connection.query(query, [name], (err, results) => {
+                if (err) reject(new Error(err.message));
+                resolve(results);
+            })
+        });
+
+        return response;
+    } catch (error) {
+        console.log(error);
+    }
+}
 
 }
+
 module.exports = DbService;

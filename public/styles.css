@@ -26,11 +26,12 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 
 }
 h2{
     font-size: 2em;
-    color: #fff;
+    color:aqua;
     text-align: center;
 }
 .inputbox{
@@ -38,20 +39,23 @@ h2{
     margin: 30px 0;
     width: 310px;
     border-bottom: 2px solid #fff;
+    background-color: black;
 }
 .inputbox label{
     position: absolute;
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-    color: #fff;
+    color:aqua;
     font-size: 1em;
     pointer-events: none;
     transition: .5s;
+   
 }
 input:focus ~ label,
 input:valid ~ label{
-top: -5px;
+    top: -15px;
+
 }
 .inputbox input {
     width: 100%;
@@ -61,7 +65,7 @@ top: -5px;
     outline: none;
     font-size: 1em;
     padding:0 35px 0 5px;
-    color: #fff;
+    color:black;
 }
 .inputbox ion-icon{
     position: absolute;

@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 const dbService = require('./dbService');
 
 app.get('/get',function(res,res){
-    res.sendFile(__dirname + '/public/index.html');`    1`
+    res.sendFile(__dirname + '/public/register.html');   
 });
 
 app.use(cors());
@@ -80,4 +80,4 @@ app.get('/search/:name', (request, response) => {
     .catch(err => console.log(err));
 });
 //run server
-app.listen(process.env.PORT, () => console.log('app isA running AI  the terminal'));
+app.listen(process.env.PORT, () => console.log('app is running...'));

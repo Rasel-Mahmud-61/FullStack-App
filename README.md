@@ -10,20 +10,20 @@
 
  # 👉 Login Page 
 
-<img    src="https://github.com/Rasel-Mahmud-61/FullStack-App/blob/master/login.png">
+<img    src="https://github.com/Rasel-Mahmud-61/FullStack-App/blob/master/public/login.png">
 
 
  
 # 👉 Registration Page 
 
-<img    src="https://github.com/Rasel-Mahmud-61/FullStack-App/blob/master/register.png">
+<img    src="https://github.com/Rasel-Mahmud-61/FullStack-App/blob/master/public/register.png">
 
 
 # 👉 Home Page  
    Here Person's ID,NAME ,DATE  can add ,remove update dynamically  .Data also update in to Database 
 
    
-<img    src="https://github.com/Rasel-Mahmud-61/FullStack-App/blob/master/homepage.png">
+<img    src="https://github.com/Rasel-Mahmud-61/FullStack-App/blob/master/public/homepage.png">
 
 
 # 👉 Database  

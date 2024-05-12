@@ -3,10 +3,18 @@
 
 ## 👉 Indroduction 
 
- this is a fullstack web app .Here   multiple people's ID, NAME , Date can added  ,remove and update dynamicall . It can directly interact with the MYSQL database. 
+**This is a fullstack web app. Here multiple people's ID, NAME, Date can be added, removed, and updated dynamically. It can directly interact with the MySQL database. Here I used HTML, CSS for Frontend and Node.js for backend.**
 
- Here i used HTML ,CSS for Frontend and Node.js for backend .
 
+## ✍️ Features
+
+- Registration
+- Login
+-  Add Data
+-  Fetch data
+-  Update data
+-  Delete data
+-  EDit data 
 
  # 👉 Login Page 
 
